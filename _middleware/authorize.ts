@@ -1,4 +1,4 @@
-import jwt from 'express-jwt';
+import { expressjwt as jwt } from 'express-jwt';
 import config from '../config.json';
 import db from '../_helpers/db';
 
